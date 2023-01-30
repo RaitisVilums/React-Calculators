@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap");
+
+// ! Global CSS settings
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #3c3c6d;
+
+  --default-ff: "Montserrat", sans-serif;
+
+  --default-fc: #fff;
+
+  --light-fw: 200;
+  --default-fw: 400;
+  --bold-fw: 700;
+}
+
+html {
+  font-size: 62.5%;
+  color: var(--default-fc);
+  font-family: var(--default-ff);
+}
+
+body {
+  background: var(--color-bg);
+  background-image: url("./Assets/bg-texture.png");
+  padding: 0 6rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--default-fc);
+}
